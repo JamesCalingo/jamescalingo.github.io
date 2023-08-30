@@ -24,18 +24,6 @@ function App() {
         <Technologies />
         <Portfolio />
         <Contact />
-        {/* <HashRouter basename="/">
-          <Routes>
-
-          <Route exact path="/" component={Landing} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/technologies" component={Technologies} />
-          <Route exact path="/portfolio" component={Portfolio} />
-          <Route exact path="/contact" component={Contact} />
-          <Route exact path="/mobile-menu" component={MobileMenu} />
-          <Route exact path="/garage" component={TheGarage} />
-          </Routes>
-        </HashRouter> */}
         <footer id="copyright">© {year} James Calingo</footer>
       </div>
     </div>

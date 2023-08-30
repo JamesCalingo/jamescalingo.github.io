@@ -18,6 +18,24 @@ function Contact() {
           </div>
           <ul className="contact-list">
             <li>
+              <a
+                href="https://www.linkedin.com/in/james-calingo/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                LinkedIn
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.github.com/JamesCalingo/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub
+              </a>
+            </li>
+            <li>
               <a href="https://jciscreative.dev">
                 For my more "freelance" type work, look here.
               </a>
