@@ -33,7 +33,6 @@ background: white;
 
 .portfolio-card-header {
   background: #008000;
-
   padding-top: 0;
   align-items: center;
   border-radius: 5px 5px 0 0
@@ -51,7 +50,7 @@ background: white;
 
 .app-link {
   color: white;
-  font-family: 'Bree Serif', serif;
+  font-family: 'Helvetica', 'sans-serif';
 font-size: 30px;
 }
 
