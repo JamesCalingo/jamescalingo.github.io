@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import PortfolioCard from "./PortfolioCard";
-import oldProjects from "../../../otherprojects.json";
+import oldProjects from "../../otherprojects.json";
 import "./portfolio.css";
 
 function TheGarage() {

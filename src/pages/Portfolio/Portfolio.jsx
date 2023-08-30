@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import PortfolioCard from "./PortfolioCard";
-import projectsObj from "../../../projects.json";
+import projectsObj from "../../projects.json";
 import "./portfolio.css";
 
 function Portfolio() {

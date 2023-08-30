@@ -1,5 +1,5 @@
 import React from "react";
-import githubLogo from "../../../images/GitHub-Mark-120px-plus.png";
+import githubLogo from "../../assets/images/GitHub-Mark-120px-plus.png";
 
 function PortfolioCard(props) {
   return (
