@@ -36,10 +36,16 @@ function Contact() {
               </a>
             </li>
             <li>
-              <a href="https://jciscreative.dev">
-                For my more "freelance" type work, look here.
+              <a href="mailto:james.calingo.web@gmail.com">
+             
+                Email me: james.calingo.web@gmail.com
               </a>
             </li>
+            {/* <li>
+              <a href="https://jciscreative.dev">
+                If you're interested in hiring me for a specific project, look here.
+              </a>
+            </li> */}
           </ul>
           {/* <form>
             <div className='form-group'>

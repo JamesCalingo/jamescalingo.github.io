@@ -20,28 +20,21 @@ function Portfolio() {
 
         <div className="work card-body">
           <p className="card-intro">
-            Here's where you can see a few of the things I've made! Click on the
-            banner on top to go to the app itself, or the Github logo at the
-            bottom of each project card to go to the repository for that
-            project.
+            Here's where you can see a few of the things I've made! Click on the banner on top to go to the app itself, or the Github logo at the bottom of each project card to go to the repository for that project.
           </p>
 
           <div className="projects">
             {/* Cards for projects */}
-            {projects.map((project) => {
-              return (
-                <PortfolioCard
-                  key={project.id}
-                  title={project.title}
-                  description={project.description}
-                  technologies={project.technologies}
-                  link={project.link}
-                  github={project.github}
-                />
-              );
-            })}
+            {projects.map((project) => <PortfolioCard
+              key={project.id}
+              title={project.title}
+              description={project.description}
+              technologies={project.technologies}
+              link={project.link}
+              github={project.github}
+            />
+            )}
 
-            {/* END CARD */}
           </div>
         </div>
       </div>

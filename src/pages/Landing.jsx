@@ -6,7 +6,7 @@ function Landing() {
       <h1 id="tagline">"Technology is the light that can cut through the darkness."</h1>
     
 
-      <ul className="home-menu">
+      {/* <ul className="home-menu">
         <li className="nav-item">
           <a href="#about">About</a>
         </li>
@@ -28,7 +28,7 @@ function Landing() {
             Resume
           </a>
         </li>
-      </ul>
+      </ul> */}
     </div>
   );
 }

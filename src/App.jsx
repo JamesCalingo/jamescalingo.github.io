@@ -1,13 +1,11 @@
 import React from "react";
-import { HashRouter, Route } from "react-router-dom";
 import Landing from "./pages/Landing";
 import About from "./pages/About";
 import Technologies from "./pages/Technologies/Technologies";
 import Portfolio from "./pages/Portfolio/Portfolio";
-import TheGarage from "./pages/Portfolio/TheGarage"
 import Contact from "./pages/contact/Contact";
 import Sidebar from "./components/sidebar/Sidebar";
-import MobileMenu from "./pages/MobileMenu";
+// import MobileMenu from "./pages/MobileMenu";
 import "./App.css";
 import DateObject from "react-date-object";
 
