@@ -15,7 +15,7 @@ function Technologies() {
           <h1>MY KNOWLEDGE BASE</h1>
         </div>
         <div className="card-body">
-          <p className="card-intro">These are some of the things I've worked with in the past. However, with how much the world of technology changes from year to year, I'm always on the lookout for new things to add to this list. Things in grey are things that I'm currently trying to learn for various reasons.</p>
+          <p className="card-intro">These are some of the things I've worked with in the past. However, with how much the world of technology changes from year to year, I'm always on the lookout for new things to add to this list.</p>
           <div className="panels">
             <div
               id="languages"
@@ -42,10 +42,10 @@ function Technologies() {
               <h3 className="list-header">Frameworks/Libraries</h3>
               <ul>
                 <li>React</li>
+                <li>React Native</li>
                 <li>Bootstrap</li>
                 <li>JQuery</li>
-                <li className="learning">Jest</li>
-                <li className="learning">Svelte</li>
+           
               </ul>
             </div>
             <div
