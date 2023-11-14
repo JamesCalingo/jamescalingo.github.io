@@ -30,8 +30,7 @@ function Technologies() {
                 <li>SQL</li>
                 <li>Python</li>
                 <li>TypeScript</li>
-                <li className="learning">GraphQL</li>
-                <li className="learning">Go</li>
+                <li>Go</li>
               </ul>
             </div>
             <div
