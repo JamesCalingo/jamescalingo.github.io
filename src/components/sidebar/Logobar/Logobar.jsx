@@ -25,7 +25,7 @@ function Logobar() {
             <img src={githubLogo} className="buttonLogo" alt="GitHub" />
           </a>
     
-          <a href="mailto:james.calingo.web@gmail.com">
+          <a href="mailto:james@jamescalingo.dev">
             <img src={gmailLogo} alt="Email me" className="buttonLogo" />
           </a>
  
