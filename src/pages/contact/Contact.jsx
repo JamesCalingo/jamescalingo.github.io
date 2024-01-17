@@ -36,9 +36,9 @@ function Contact() {
               </a>
             </li>
             <li>
-              <a href="mailto:james.calingo.web@gmail.com">
+              <a href="mailto:james@jamescalingo.dev">
              
-                Email me: james.calingo.web@gmail.com
+                Email
               </a>
             </li>
             {/* <li>

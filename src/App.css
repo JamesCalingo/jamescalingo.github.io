@@ -97,9 +97,9 @@ p {
 
 
 @media only screen and (max-width: 1000px) {
-  body{
-    width: 100%;
-  }
+  /* body{
+    width: 400px;
+  } */
  
   .container-grid {
    max-width: 100%;
@@ -110,6 +110,14 @@ p {
   .card{
     margin: 0;
     margin-top: 25px
+  }
+
+  .card-header h1 {
+    font-size: 18pt
+  }
+
+  .card-header h2 {
+    font-size: 14pt;
   }
   
   #sidebar {

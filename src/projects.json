@@ -3,15 +3,15 @@
     "id": 0,
     "title": "Giftstar",
     "link": "https://overclocked-overthoughts.netlify.app/blog/giftstar",
-    "description": "An app that allows users to create personalized gift lists. Using MySQL, items that users want are stored in a database, along with links to various websites where those items can be purchased.",
+    "description": "An app that allows users to create personalized gift lists.",
     "technologies": "React, MySQL, Sequelize, JSON Web Token, Bootstrap, NodeJS, Express, SweetAlert, React-Toastify",
-    "github": "https://github.com/JamesCalingo/GiftsintheGazebo"
+    "github": "https://github.com/JamesCalingo/Giftstar2.0"
   },
   {
     "id": 1,
     "title": "Where do I Worship?",
     "link": "https://jamescalingo.dev/whereDoIWorship",
-    "description": "An app for finding nearby houses of worship - churches, temples, etc. Users can identify their location either by using their browser's geolocation API or by entering in their location (with assistance from Google Autocomplete), the denomination of the house of worship they seek, and will receive a map showing where the 20 nearest houses of worship are.",
+    "description": "An app for finding nearby houses of worship - churches, temples, etc.",
     "technologies": "HTML5, CSS3, JavaScript, Google Maps API, Google Places API",
     "github": "https://github.com/JamesCalingo/whereDoIWorship"
   },

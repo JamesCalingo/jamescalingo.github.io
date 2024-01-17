@@ -23,7 +23,7 @@ overflow-y: scroll;
 
 .portfolio-card{
   position: relative;
-  height: 475px;
+  height: 405px;
 background: white;
   border: 3px solid black;
   border-radius: 10px;
@@ -57,7 +57,7 @@ font-size: 30px;
 .github-link {
   position: absolute;
   bottom: 0;
-  left: 50%;
+  left: 47%;
 }
 
 .portfolio-logo {
@@ -69,4 +69,5 @@ font-size: 30px;
   .projects {
     width: 90vw
   }
+
 }
