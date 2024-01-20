@@ -23,7 +23,7 @@ overflow-y: scroll;
 
 .portfolio-card{
   position: relative;
-  height: 405px;
+height: 250px;
 background: white;
   border: 3px solid black;
   border-radius: 10px;
@@ -68,6 +68,16 @@ font-size: 30px;
 @media only screen and (max-width: 1000px) {
   .projects {
     width: 90vw
+  }
+
+  .portfolio-card {
+    height: 405px;
+    position: inherit;
+  }
+
+  .github-link {
+    position: inherit;
+    margin-top: 30%;
   }
 
 }

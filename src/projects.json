@@ -1,12 +1,5 @@
 [
-  {
-    "id": 0,
-    "title": "Giftstar",
-    "link": "https://overclocked-overthoughts.netlify.app/blog/giftstar",
-    "description": "An app that allows users to create personalized gift lists.",
-    "technologies": "React, MySQL, Sequelize, JSON Web Token, Bootstrap, NodeJS, Express, SweetAlert, React-Toastify",
-    "github": "https://github.com/JamesCalingo/Giftstar2.0"
-  },
+
   {
     "id": 1,
     "title": "Where do I Worship?",
