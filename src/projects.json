@@ -1,15 +1,22 @@
 [
-
   {
     "id": 1,
-    "title": "Where do I Worship?",
-    "link": "https://jamescalingo.dev/whereDoIWorship",
+    "title": "GogoaT",
+    "link": "https://jamescalingo.dev/gogoat",
     "description": "An app for finding nearby houses of worship - churches, temples, etc.",
-    "technologies": "HTML5, CSS3, JavaScript, Google Maps API, Google Places API",
-    "github": "https://github.com/JamesCalingo/whereDoIWorship"
+    "technologies": "HTML, CSS, JavaScript, PWA, Go",
+    "github": "https://github.com/JamesCalingo/gogoat"
   },
   {
     "id": 2,
+    "title": "Where do I Worship?",
+    "link": "https://jamescalingo.dev/whereDoIWorship",
+    "description": "An app for finding nearby houses of worship - churches, temples, etc.",
+    "technologies": "HTML, CSS, JavaScript, Google Maps API, Google Places API",
+    "github": "https://github.com/JamesCalingo/whereDoIWorship"
+  },
+  {
+    "id": 3,
     "title": "Tippa",
     "link": "https://jamescalingo.github.io/tippa/",
     "description": "An app to calculate how much to tip - as well as how to split the tip amongst friends.",
