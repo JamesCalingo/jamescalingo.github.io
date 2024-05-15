@@ -11,7 +11,7 @@
     "id": 2,
     "title": "Where do I Worship?",
     "link": "https://jamescalingo.dev/whereDoIWorship",
-    "description": "An app for finding nearby houses of worship - churches, temples, etc.",
+    "description": "An multi-faceted source for information on public transportation in Boston. It comes in a web/mobile/PWA version and a Discord bot.",
     "technologies": "HTML, CSS, JavaScript, Google Maps API, Google Places API",
     "github": "https://github.com/JamesCalingo/whereDoIWorship"
   },
