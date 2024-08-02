@@ -7,14 +7,13 @@
 }
 
 .name {
-  background: green;
+  background: #00843D;;
   color: white;
   padding: 3px;
-  border: 1px solid black
 }
 
 .tagline {
   background: white;
   color: black;
-  border: 1px solid black;
+  border-top: 1px solid black;
 }

@@ -5,7 +5,7 @@
     "link": "https://go-gogoat.net",
     "description": "An multi-faceted source for information on public transportation in Boston. It comes in a web/mobile/PWA version and a Discord bot.",
     "technologies": "HTML, CSS, JavaScript, PWA, Go",
-    "github": "https://github.com/JamesCalingo/gogoat"
+    "github": "https://github.com/JamesCalingo/gogoat-web"
   },
   {
     "id": 2,

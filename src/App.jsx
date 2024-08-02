@@ -1,11 +1,9 @@
-import React from "react";
 import Landing from "./pages/Landing";
 import About from "./pages/About";
 import Technologies from "./pages/Technologies/Technologies";
 import Portfolio from "./pages/Portfolio/Portfolio";
 import Contact from "./pages/contact/Contact";
-import Sidebar from "./components/sidebar/Sidebar";
-// import MobileMenu from "./pages/MobileMenu";
+import Topbar from "./components/topbar/Topbar";
 import "./App.css";
 import DateObject from "react-date-object";
 
@@ -14,7 +12,7 @@ function App() {
   const year = date.format("YYYY")
   return (
     <div className="container-grid">
-      <Sidebar />
+      <Topbar />
 
       <div className="pages">
         <Landing />

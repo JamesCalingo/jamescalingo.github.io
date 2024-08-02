@@ -1,34 +1,27 @@
-import React from "react";
+/* eslint-disable react/no-unescaped-entities */
+import profilePic from "../assets/images/picture-of-me.jpg";
 
 function Landing() {
   return (
     <div id="landing">
-      <h1 id="tagline">"Technology is the light that can cut through the darkness."</h1>
-    
-
-      {/* <ul className="home-menu">
-        <li className="nav-item">
-          <a href="#about">About</a>
-        </li>
-        <li className="nav-item">
-          <a href="#technologies">Knowledge Base</a>
-        </li>
-
-        <li className="nav-item">
-          <a href="#portfolio">Portfolio</a>
-        </li>
-        <li className="nav-item">
-          <a href="#contact">Contact Me</a>
-        </li>
-        <li className="nav-item">
-          <a href="https://jamescalingo.com/">Blog</a>
-        </li>
-        <li className="nav-item">
-          <a href="https://docs.google.com/document/d/e/2PACX-1vQcFopUsFf6TglXF6i6vTRadVZbpgs1bSS-UJ6w07hVXV1EbfkUrr5YeeMcs5tXTZwYnGcqqtQZguHk/pub">
-            Resume
-          </a>
-        </li>
-      </ul> */}
+      <div className="slide">
+        <p id="tagline">
+          "Technology is the light that can cut through the darkness."
+        </p>
+      </div>
+      <div className="slide">
+        <div className="intro">
+        <h1>Hello world!</h1>
+          <img
+            src={profilePic}
+            className="img-thumbnail profile-pic"
+            alt="James Calingo (aka me)"
+          />
+          <p>
+            My name is James Calingo and I am a software developer/engineer.
+          </p>
+        </div>
+      </div>
     </div>
   );
 }

@@ -18,22 +18,27 @@ p {
   margin-bottom: 10px;
 }
 
+img {
+  max-inline-size: 250px;
+}
+
 #tagline {
-  font-size: 7vw;
   font-weight: normal;
 }
 
-.container-grid {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  grid-template-rows: repeat (5, 20%);
+.intro {
+ padding-bottom: 10px;
+
 }
 
+.slide {
+  height: 100%;
+  width: 100%;
+}
 
 .pages {
-  grid-column-start: 2;
-  grid-row-start: 2;
   margin: 2%;
+  margin-top: 150px;
 }
 
 #landing {
@@ -41,6 +46,7 @@ p {
   font-size: 48pt;
   font-family: 'Roboto Mono', sans-serif;
   color: white;
+  margin-bottom: 100px;
 }
 
 .profile-pic {
@@ -101,6 +107,11 @@ p {
   /* body{
     width: 400px;
   } */
+
+  #landing {
+    font-size: initial;
+    margin-top: 0px;
+  }
  
   .container-grid {
    max-width: 100%;
@@ -134,15 +145,6 @@ p {
 
   .home-menu{
     display: contents;
-  }
-
-  #landing h1{
-    font-size: 45px;
-  }
-  
-  #landing a{
-    color: white;
-    font-family: "Roboto Mono", sans-serif;
   }
 
   .pages {

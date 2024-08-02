@@ -3,12 +3,9 @@
 }
 
 .projects {
+  display: flex;
   align-items: center;
- margin: 0 1vw;
-  height: 80vh;
-overflow-y: scroll;
-  border: 3px solid green;
-  border-radius: 10px;
+  margin: 0 1vw;
 }
 
 .work {
@@ -21,10 +18,10 @@ overflow-y: scroll;
   margin: 15px
 }
 
-.portfolio-card{
-  position: relative;
-height: 250px;
-background: white;
+.portfolio-card {
+  height: 450px;
+  width: 35%;
+  background: white;
   border: 3px solid black;
   border-radius: 10px;
   text-align: center;
@@ -39,7 +36,7 @@ background: white;
 }
 
 .portfolio-card-body {
-background: white;
+  background: white;
   margin-bottom: 10px;
   padding-bottom: 0;
 }
@@ -51,13 +48,7 @@ background: white;
 .app-link {
   color: white;
   font-family: 'Bree Serif', serif;
-font-size: 30px;
-}
-
-.github-link {
-  position: absolute;
-  bottom: 0;
-  left: 47%;
+  font-size: 30px;
 }
 
 .portfolio-logo {
@@ -67,17 +58,18 @@ font-size: 30px;
 
 @media only screen and (max-width: 1000px) {
   .projects {
-    width: 90vw
+    display: block;
+    width: 90%
   }
 
   .portfolio-card {
-    height: 405px;
+    height: 450px;
+    width: 100%;
     position: inherit;
   }
 
-  .github-link {
-    position: inherit;
-    margin-top: 30%;
-  }
+.description {
+  font-size: 14pt;
+}
 
 }
