@@ -6,6 +6,7 @@ import Contact from "./pages/contact/Contact";
 import Topbar from "./components/topbar/Topbar";
 import "./App.css";
 import DateObject from "react-date-object";
+import Logobar from "./components/Logobar/Logobar";
 
 function App() {
   const date = new DateObject()
@@ -20,7 +21,12 @@ function App() {
         <Technologies />
         <Portfolio />
         <Contact />
-        <footer id="copyright">© {year} James Calingo</footer>
+        <footer >
+          <p id="copyright">
+          © {year} James Calingo
+          </p>
+          </footer>
+          <Logobar />
       </div>
     </div>
   );

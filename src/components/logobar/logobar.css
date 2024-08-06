@@ -1,0 +1,24 @@
+#logobar {
+  position: fixed;
+  bottom: 0;
+  width: 10%;
+  padding: 7px;
+  background: white;
+}
+
+#logobar ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+.buttonLogo {
+  width: 32px;
+  /* margin-right: 15px; */
+}
+
+@media only screen and (max-width: 1000px) {
+  #logobar {
+    visibility: hidden;
+  }
+}

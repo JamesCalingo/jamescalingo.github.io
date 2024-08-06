@@ -1,4 +1,3 @@
-import React from "react";
 
 export default function MobileMenu() {
   return (
@@ -15,9 +14,9 @@ export default function MobileMenu() {
           <li className="nav-item">
             <a href="#portfolio">Portfolio</a>
           </li>
-          {/* <li className="nav-item">
+          <li className="nav-item">
             <a href="#contact">Contact Me</a>
-          </li> */}
+          </li>
           <li className="nav-item">
             <a href="https://overclocked-overthoughts.netlify.app">Blog</a>
           </li>
