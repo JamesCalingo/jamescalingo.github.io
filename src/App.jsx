@@ -6,7 +6,7 @@ import Contact from "./pages/contact/Contact";
 import Topbar from "./components/topbar/Topbar";
 import "./App.css";
 import DateObject from "react-date-object";
-import Logobar from "./components/Logobar/Logobar";
+import Logobar from "./components/logobar/Logobar"
 
 function App() {
   const date = new DateObject()
