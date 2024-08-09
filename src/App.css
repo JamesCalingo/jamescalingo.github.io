@@ -23,8 +23,7 @@ img {
 }
 
 footer {
-  display: flex;
-  justify-content: space-between;
+  text-align: right;
 }
 
 #tagline {
@@ -92,11 +91,6 @@ footer {
   text-align: center;
 }
 
-#copyright {
-  text-align: right;
-  color: white;
-}
-
 .home-menu{
   display:none;
 }
@@ -162,9 +156,7 @@ footer {
     grid-column-start: 1
   }
 
-  #copyright {
-    text-align: center;
-  }
+
 
   .portfolio-card {
     grid-column: 1 / 5
