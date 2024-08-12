@@ -9,7 +9,7 @@ function Landing() {
           "Technology is the light that can cut through the darkness."
         </p>
       </div>
-      <div className="slide">
+      <div className="">
         <div className="intro">
         <h1>Hello world!</h1>
           <img

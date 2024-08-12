@@ -3,7 +3,7 @@
 
 function About() {
   return (
-    <div id="about" className="container slide">
+    <div id="about" className="slide">
       <div className="card">
         <div className="card-header">
           <h1>ABOUT ME</h1>

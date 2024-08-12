@@ -10,7 +10,7 @@ function Technologies() {
   }
 
   return (
-    <div id="technologies" className="">
+    <div id="technologies" className="slide">
       <div className="card">
         <div className="card-header">
           <h1>MY KNOWLEDGE BASE</h1>

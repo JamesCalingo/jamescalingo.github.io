@@ -12,7 +12,7 @@ function Portfolio() {
   }, []);
 
   return (
-    <div id="portfolio">
+    <div id="portfolio" className="slide">
       <div className="card">
         <div className="card-header">
           <h1>MY PORTFOLIO OF WORK</h1>

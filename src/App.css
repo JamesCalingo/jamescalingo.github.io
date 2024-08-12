@@ -38,11 +38,11 @@ footer {
 .slide {
   height: 100%;
   width: 100%;
+  padding-top: 150px;
 }
 
 .pages {
   margin: 2%;
-  margin-top: 150px;
 }
 
 #landing {
@@ -62,8 +62,7 @@ footer {
 .card {
   border: 3px solid white;
   border-radius: 10px;
-  margin: 30px;
-  padding: 0
+  padding: 0;
 }
 
 .card-header {
