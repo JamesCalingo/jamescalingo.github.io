@@ -30,7 +30,7 @@ function Topbar() {
           <a href="https://overclocked-overthoughts.netlify.app/">Blog</a>
         </li>
         <li>
-          <a href="src/assets/jamescalingo.pdf" target="_blank" rel="noopener noreferrer">
+          <a href="/jamescalingo.pdf" target="_blank" rel="noopener noreferrer">
             Resume
           </a>
         </li>
