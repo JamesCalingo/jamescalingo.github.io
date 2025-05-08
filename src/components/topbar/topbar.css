@@ -14,7 +14,6 @@
 }
 
 #sidebar li {
-  padding: 10px;
   list-style-type: none;
 }
 
@@ -23,7 +22,7 @@
   text-decoration: none
 }
 
-#sidebar li :hover {
+#sidebar  li.nav-item :hover {
   color: #00843D;;
   background: white;
 }

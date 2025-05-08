@@ -2,7 +2,6 @@ import NameCard from "./namecard/NameCard";
 import { useMediaQuery } from "react-responsive";
 import "./topbar.css";
 
-
 function Topbar() {
   const isSmallScreen = useMediaQuery({
     query: "(max-width: 1000px)",
@@ -10,9 +9,13 @@ function Topbar() {
 
   return (
     <div id="sidebar" className={isSmallScreen ? "small-screen" : ""}>
-      <NameCard />
-    
+      {isSmallScreen && <a href="/"><NameCard /></a>}
       <ul className={isSmallScreen ? "dropdown-content" : ""}>
+        <li>
+          <a href="/">
+          <NameCard />
+          </a>
+        </li>
         <li className="nav-item">
           <a href="#about">About</a>
         </li>
@@ -30,7 +33,11 @@ function Topbar() {
           <a href="https://overclocked-overthoughts.netlify.app/">Blog</a>
         </li>
         <li>
-          <a href="https://jamescalingo.dev/resume" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://jamescalingo.dev/resume"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Resume
           </a>
         </li>

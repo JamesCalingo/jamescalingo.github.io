@@ -18,7 +18,7 @@ function Landing() {
             alt="James Calingo (aka me)"
           />
           <p>
-            My name is James Calingo and I am a software developer/engineer.
+            My name is James Calingo and I am a software engineer.
           </p>
         </div>
       </div>

@@ -38,7 +38,7 @@ footer {
 .slide {
   height: 100%;
   width: 100%;
-  padding-top: 150px;
+  padding-top: 50px;
 }
 
 .pages {
@@ -49,8 +49,11 @@ footer {
   text-align: center;
   font-size: 48pt;
   font-family: 'Roboto Mono', sans-serif;
-  /* color: white; */
   margin-bottom: 100px;
+}
+
+#landing p {
+  font-size: 40pt;
 }
 
 .profile-pic {
@@ -113,8 +116,23 @@ footer {
 
   #landing {
     font-size: initial;
-    margin-top: 0px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 24pt;
+    font-family: 'Roboto Mono', sans-serif;
+    margin-bottom: 0;
   }
+  
+  #landing p {
+    font-size: 24pt;
+  }
+  
+  .profile-pic {
+    float: none;
+    /* margin: 0 10px; */
+    width: 85%;
+  }
+  
  
   .container-grid {
    max-width: 100%;
