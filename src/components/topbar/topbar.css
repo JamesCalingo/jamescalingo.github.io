@@ -15,6 +15,16 @@
 
 #sidebar li {
   list-style-type: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#sidebar li.nav-item {
+  padding-top: 1.5%;
+}
+
+#sidebar li.link {
+  padding-top: 1.5%;
 }
 
 #sidebar a {

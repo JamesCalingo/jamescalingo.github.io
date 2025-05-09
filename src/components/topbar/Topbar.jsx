@@ -27,12 +27,12 @@ function Topbar() {
           <a href="#portfolio">Portfolio</a>
         </li>
         <li className="nav-item">
-          <a href="#contact">Contact Me</a>
+          <a href="#contact">Contact</a>
         </li>
-        <li>
+        <li className="link">
           <a href="https://overclocked-overthoughts.netlify.app/">Blog</a>
         </li>
-        <li>
+        <li className="link">
           <a
             href="https://jamescalingo.dev/resume"
             target="_blank"
