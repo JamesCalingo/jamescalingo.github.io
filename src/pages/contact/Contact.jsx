@@ -15,7 +15,7 @@ function Contact() {
               Here are just a few of the places around the internet where you
               can find me. I'd love to hear from you!
             </p>
-            <p>(You can also access these links using the bar in the lower left corner)</p>
+            {/* <p>(You can also access these links using the bar in the lower left corner)</p> */}
           </div>
           <ul className="contact-list">
             <li>

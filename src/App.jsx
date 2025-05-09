@@ -26,7 +26,7 @@ function App() {
           © {year} James Calingo
           </p>
           </footer>
-          <Logobar />
+          {/* <Logobar /> */}
       </div>
     </div>
   );
