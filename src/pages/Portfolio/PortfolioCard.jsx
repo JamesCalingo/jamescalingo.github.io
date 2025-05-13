@@ -15,13 +15,13 @@ function PortfolioCard(props) {
         </a>
       </div>
       <div className="portfolio-card-body card-body">
-        <a href={props.github} target="_blank" rel="noopener noreferrer">
+        {props.github && <a href={props.github} target="_blank" rel="noopener noreferrer">
           <img
             src={githubLogo}
             className="portfolio-logo"
             alt="View on GitHub"
           />
-        </a>
+        </a> }
       </div>
         <img src={props.image} alt={props.alt} />
         <p className="description">{props.description}</p>

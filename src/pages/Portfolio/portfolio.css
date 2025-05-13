@@ -5,7 +5,8 @@
 .projects {
   display: flex;
   align-items: center;
-  margin: 0 1vw;
+  /* margin: 0 1vw; */
+  width: 100%;
 }
 
 .work {
@@ -20,7 +21,7 @@
 
 .portfolio-card {
   height: 450px;
-  width: 35%;
+  width: 45%;
   background: white;
   border: 3px solid black;
   border-radius: 10px;
@@ -35,6 +36,10 @@
   border-radius: 5px 5px 0 0
 }
 
+.portfolio-card-header h3 {
+  font-size: 5vh;
+}
+
 .portfolio-card-body {
   background: white;
   margin-bottom: 10px;
@@ -42,7 +47,8 @@
 }
 
 .description {
-  font-size: 25px;
+  font-size: 18pt;
+  margin: 0 10px;
 }
 
 .app-link {

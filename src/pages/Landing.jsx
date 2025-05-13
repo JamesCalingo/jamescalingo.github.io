@@ -10,16 +10,14 @@ function Landing() {
         </p>
       </div>
       <div className="">
-        <div className="intro">
         <h1>Hello world!</h1>
+        <div className="intro">
           <img
             src={profilePic}
             className="img-thumbnail profile-pic"
             alt="James Calingo (aka me)"
           />
-          <p>
-            My name is James Calingo and I am a software engineer.
-          </p>
+          <p>My name is James Calingo and I am a software engineer.</p>
         </div>
       </div>
     </div>
