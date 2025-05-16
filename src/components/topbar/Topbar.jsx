@@ -34,7 +34,7 @@ function Topbar() {
         </li>
         <li className="link">
           <a
-            href="https://jamescalingo.dev/resume"
+            href="https://jamescalingo.dev/resume/JamesCalingo.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
