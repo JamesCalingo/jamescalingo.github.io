@@ -1,13 +1,14 @@
-[{
-    "id": 1,
-    "title": "Code for Boston",
-    "link": "https://www.codeforboston.org",
-    "description": "I've worked on a few projects with Code for Boston - an open source community focused on civic technology.",
-    "technologies": "HTML, CSS, JavaScript",
-    "github": ""
-},
+[
   {
-    "id": 2,
+    "id": 0,
+    "title": "Sportventures",
+    "link": "https://sportventures.blog",
+    "description": "My personal blog where I write about sports, sporting events, and related topics - developed from scratch.",
+    "technologies": "NextJS, React, CSS ",
+    "github": "https://github.com/JamesCalingo/sportventures"
+  },
+  {
+    "id": 1,
     "title": "GogoaT",
     "link": "https://go-gogoat.net",
     "description": "A web/PWA application for information on public transit in Boston.",
@@ -15,20 +16,20 @@
     "github": "https://github.com/JamesCalingo/gogoat-web"
   },
   {
-    "id": 3,
-    "title": "Where do I Worship?",
+    "id": 2,
+    "title": "WDIW?",
     "link": "https://jamescalingo.dev/whereDoIWorship",
-    "description": "A web/PWA application for finding nearby houses of worship - churches, temples, etc.",
+    "description": "AKA \"Where Do I Worship?\" - a web/PWA application for finding nearby houses of worship - churches, temples, etc.",
     "technologies": "HTML, CSS, JavaScript, Google Maps API, Google Places API",
     "github": "https://github.com/JamesCalingo/whereDoIWorship"
   },
-  {
-    "id": 4,
-    "title": "Tippa",
-    "link": "https://jamescalingo.github.io/tippa/",
-    "description": "An app to calculate how much to tip - as well as how to split the tip amongst friends.",
-    "technologies": "HTML, JavaScript, Bootstrap",
-    "github": "https://github.com/JamesCalingo/Tippa"
-  }
 
+  {
+    "id": 3,
+    "title": "Code for Boston",
+    "link": "https://www.codeforboston.org",
+    "description": "I've worked on a few projects with Code for Boston - an open source community focused on civic technology.",
+    "technologies": "HTML, CSS, JavaScript",
+    "github": ""
+  }
 ]

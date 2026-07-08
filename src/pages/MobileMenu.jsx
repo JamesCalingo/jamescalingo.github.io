@@ -18,7 +18,7 @@ export default function MobileMenu() {
             <a href="#contact">Contact Me</a>
           </li>
           <li className="nav-item">
-            <a href="https://overclocked-overthoughts.netlify.app">Blog</a>
+            <a href="https://sportventures.blog">Blog</a>
           </li>
           <li className="nav-item">
             <a href="https://docs.google.com/document/d/e/2PACX-1vQcFopUsFf6TglXF6i6vTRadVZbpgs1bSS-UJ6w07hVXV1EbfkUrr5YeeMcs5tXTZwYnGcqqtQZguHk/pub">

@@ -30,7 +30,7 @@ function Topbar() {
           <a href="#contact">Contact</a>
         </li>
         <li className="link">
-          <a href="https://overclocked-overthoughts.netlify.app/">Blog</a>
+          <a href="https://sportventures.blog/">Blog</a>
         </li>
         <li className="link">
           <a
